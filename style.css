@@ -1,0 +1,17 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+header,nav,section,article,aside,footer{display: block;}
+header{background-color:rgba(128, 128, 128, 0.696);margin-bottom: 1vh;}
+header a{text-decoration: none; padding: 2%; color: white; display: block; font-size: 2.5rem;}
+nav{background-color: rgba(175, 44, 44, 0.728);}
+nav ul{padding: 2%; display: flex; gap: 5%;}
+nav ul li{list-style: none;}
+nav ul li a{text-decoration: none; color: white;}
+section{min-height: 600px; padding:1vh 2%; display: flex; justify-content: space-between;}
+article{width: 98%; margin-top: 1vh;}
+article img{width: 98%; height: 350px;}
+.post{background-color: whitesmoke; margin-bottom: 1vh;}
+.post h1{background-color: royalblue; color: white;padding: 1%; text-align: center;}
+.post p{text-align: justify;padding: 1%;}
+aside{width: 20%; background-color: rgba(139, 211, 31, 0.815);}
+footer{background-color:rgba(128, 128, 128, 0.696);}
+footer h4{text-align: center; padding: 2%; color: white;}
